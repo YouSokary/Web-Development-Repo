@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youssef Samir Elsoukkary | Portfolio</title>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.7;
+  color: #333;
+  background: #f4f6f9;
+}
+
+header {
+  background: linear-gradient(135deg, #142e3d, #1f3a52);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  margin: 0 0 24px;
+  color: #c9d1e0;
+  font-size: 1.1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+  border-bottom: none;
+}
+
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+section {
+  background: #fff;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #2f5bea;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #142e3d;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 6px;
+  color: #1f3a52;
+  font-size: 1.15rem;
+}
+
+h3:first-of-type {
+  margin-top: 15px;
+}
+
+a {
+  color: #2f5bea;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p, li {
+  color: #555;
+}
+
+/* Global clean contrast rules replacing inline styles */
+#education p strong, 
+#education p b, 
+li strong {
+  color: #111;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Youssef Samir Elsoukkary</h1>
+  <p>Computer and Artificial Intelligence Engineering Student</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#training">Training</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#languages">Languages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Junior Computer and Artificial Intelligence Engineering student (Ain Shams University, dual degree with the University of East London) with a strong foundation in systems programming, compilers, and machine learning. Built a compiler, implemented kernel memory management and process scheduling, designed a 32-bit MIPS processor, and trained an ensemble of PyTorch models for a Kaggle image-classification competition. Completed the ACE Summer School at the University of East London, building PySpark data pipelines and Streamlit dashboards.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <h3>Ain Shams University, Faculty of Engineering | Cairo, Egypt</h3>
+  <p><strong>B.Sc. in Computer and Artificial Intelligence Engineering</strong>, Dual Degree with the University of East London (UK) (2024 - Present)</p>
+  <p><b>Junior (3rd Year) | GPA: 3.45</b></p>
+  <p><strong>Relevant Coursework:</strong> Object Oriented Programming, Data Structures, Logic Design and Computer Organization, Algorithms and Complexity, Compilers, Operating Systems, Machine Learning, Database</p>
+
+  <h3>New Ramses College | Cairo, Egypt</h3>
+  <p>IGCSE and A-Level: A* in all 8 O-Level subjects, A in A-Level (2022 - 2024)</p>
+</section>
+
+<section id="training">
+  <h2>Training and Certifications</h2>
+  <h3>ACE Summer School: Big Data and Cloud Computing for Smart Cities | University of East London, London, UK</h3>
+  <p>Built distributed data pipelines with PySpark (DataFrame API, Spark SQL, UDFs) to clean, partition, and query large datasets, including NYC taxi trip records and the KDD Cup network-intrusion dataset. Parsed raw network logs into structured data and classified traffic into attack categories (DoS, U2R, R2L, Probe) using SQL CASE logic and custom UDFs. Built interactive Streamlit dashboards exposed publicly with ngrok and provisioned virtual machines on Microsoft Azure.</p>
+
+  <h3>AWS Academy Generative AI Foundations | Amazon Web Services (AWS Academy)</h3>
+  <p>Completed foundational training in Generative AI concepts and applications (2026).</p>
+
+  <h3>Python Deep Dive | University Technical Trainings</h3>
+  <p>Trained in functional and object-oriented Python; built a text analyzer, matrix class, and tax calculator (2025).</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <h3>Scene Classification with Deep Learning | Python, PyTorch</h3>
+  <p>Built a scene-classification system for a course Kaggle competition, classifying images into 17 scene categories. Designed an ensemble of four pretrained architectures (DINOv2-Large, Swin-Base, ConvNeXt-Base, EfficientNetV2-S) using custom model classes with manually loaded pretrained weights. Reduced overfitting with DropPath, EMA, CutMix/MixUp, layer-wise learning-rate decay, and staged unfreezing; combined models using test-time augmentation and weighted-average and geometric-mean ensembling.</p>
+
+  <h3>Tiny Language Compiler | C#</h3>
+  <p>Designed DFAs for lexical analysis and context-free grammar (CFG) rules for the Tiny language. Implemented the compiler's front end and back end in C#, including a recursive-descent parser and a two-pass semantic analyzer. Added semantic checks for duplicate declarations, undeclared identifiers, argument count and type mismatches, and return type mismatches.</p>
+
+  <h3>Operating System Kernel: Memory Management and Process Scheduling (FOS) | C, x86</h3>
+  <p>Enhanced a 32-bit kernel with a dynamic heap allocator using the Next-Fit algorithm, covering allocation, deallocation, and virtual-to-physical address translation. Implemented demand paging, page-fault handling, the Nth-Chance Clock page-replacement algorithm, and an MLFQ scheduler managing process priorities, ready queues, and CPU time quanta.</p>
+
+  <h3>Single-Cycle 32-bit MIPS Processor | VHDL</h3>
+  <p>Designed and implemented a 32-bit single-cycle MIPS processor in VHDL, integrating the datapath, control unit, memories, PC, multiplexers, adders, sign extender, and branch/jump logic. Built a 32-register file and custom ALU supporting arithmetic, logical, and comparison operations, verified via VHDL simulation.</p>
+
+  <h3>FoodFlow: Online Food Ordering System | C#, SQL</h3>
+  <p>Designed a full-stack database application modeled after modern food delivery platforms, with an ERD normalized to Third Normal Form (3NF). Wrote DDL and DML scripts, advanced SQL stored procedures for secure CRUD operations, and built Admin and Customer interfaces.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Programming Languages:</strong> Python, C#, C, C++, Java, SQL, VHDL, HTML, CSS, JavaScript</li>
+    <li><strong>AI and Machine Learning:</strong> PyTorch, Deep Learning, Computer Vision, Transfer Learning</li>
+    <li><strong>Big Data and Cloud:</strong> PySpark (Spark SQL), Streamlit, ngrok, Microsoft Azure, AWS (Generative AI Foundations)</li>
+    <li><strong>Core Computer Science:</strong> Data Structures and Algorithms, Operating Systems, Compiler Design, Computer Architecture, Databases (ERD design, normalization, stored procedures)</li>
+    <li><strong>Tools:</strong> Git, GitHub, Jupyter Notebook</li>
+  </ul>
+</section>
+
+<section id="languages">
+  <h2>Languages</h2>
+  <ul>
+    <li><strong>Arabic:</strong> Native</li>
+    <li><strong>English:</strong> Professional</li>
+    <li><strong>French:</strong> Professional</li>
+    <li><strong>German:</strong> Basic</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <ul>
+    <li><strong>Email:</strong> <a href="mailto:Yousef.Elsoukkary@gmail.com">Yousef.Elsoukkary@gmail.com</a></li>
+    <li><strong>Github:</strong> <a href="https://github.com/YouSokary/" target="_blank">YouSokary</a></li>
+    <li><strong>Phone Number:</strong> +20 110 180 8801</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Youssef Elsoukkary</p>
+</footer>
+
+</body>
+</html>
